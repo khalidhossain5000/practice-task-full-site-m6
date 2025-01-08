@@ -1,0 +1,121 @@
+/* google font setup  */
+
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  .inter-normal{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+
+/* shared css  */
+.text-center{
+    text-align: center;
+}
+.m{
+    margin: 0px;
+}
+
+.p{
+    padding: 0;
+}
+
+/* header section style start here  */
+.banner{
+    background: linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)),url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 1320px;
+    display: block;
+    margin: auto;
+    text-align: center;  
+    border-radius: 16px;
+    margin-top: 50px;
+}
+.banner-sub-title{
+    font-size: 32px;
+    color: white;
+    margin: 0px;
+    font-weight: 400;
+}
+.banner-title{
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    margin: 0pc;
+}
+
+.banner-content{
+    padding: 170px;
+}
+
+/* offer css start  */
+.offer{
+    margin-top: 120px;
+}
+.offer-title{
+    color: red;
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+
+.offer-sub-title{
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.img-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+}
+
+.offer-image{
+    margin-top: 48px;
+    padding: 50px;
+}
+
+
+/* welcome banner css start from here  */
+.welcome-banner{
+background:linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url(../images/Vectorrr.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin: 120px 140px;
+ border-radius: 16px;
+ 
+}
+
+.welcome-title{
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.welcome-description{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+
+.main-btn{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.welcome-container{
+    margin: 0px 125px;
+}
