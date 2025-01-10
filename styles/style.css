@@ -94,6 +94,8 @@ background:linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url(../images/V
  background-size: cover;
  margin: 120px 140px;
  border-radius: 16px;
+ padding: 0px 0px;
+
  
 }
 
@@ -102,7 +104,6 @@ background:linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url(../images/V
     font-weight: 700;
     margin: 0;
     color: white;
-    text-align: center;
 }
 
 .welcome-description{
@@ -118,4 +119,152 @@ background:linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url(../images/V
 
 .welcome-container{
     margin: 0px 125px;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-image{
+    padding: 60px 30px;
+    width: 360px;
+    height: 450px;
+}
+
+/* timing css start here  */
+
+.timing {
+    text-align: center;
+    padding:110px 90px;
+}
+
+.timing-content h5{
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+    margin: 0;
+    line-height: 56px;
+}
+
+.timing-content span{
+    color: red;
+}
+.timing-btn{
+    margin-top: 48px;
+}
+.timing-btn button{
+    background-color: red;
+    padding: 16px 32px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* comming soon styles start here  */
+.comming-soon-main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+
+}
+.comming-soon-content1{
+    padding: 90px;
+    width: 395px;
+    width: 25%;
+
+}
+.comming-soon-content1 h4{
+    font-size: 24px;
+    color: #FF0000;
+    margin: 0;
+    font-weight: 400;
+}
+
+.comming-soon-content1 h2{
+    font-size: 48px;
+    color: #070211;
+    font-weight: 700;
+    margin: 0;
+}
+.comming-soon-content1 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    
+}
+
+.comming-soon-image{
+    
+    width: 460px;
+    border-radius:50%;
+    text-align: center;
+}
+
+.comming-soon-image img{
+    border: 15px solid red;
+    border-radius: 50%;
+    padding: 20px;
+}
+.comming-soon-content2{
+    width: 280px;
+}
+/* sale function section css  */
+
+.sale{
+    margin-top: 130px;
+}
+.sale-content{
+    text-align: center;
+}
+.sale-content h4{
+    font-size: 20px;
+    color: #070211;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.sale-content h2{
+    font-size: 72px;
+    font-weight: 700;
+    color: #070211;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.sale-content h2 span{
+    color: red;
+    font-weight: 700;
+    font-size: 72px;
+    margin: 0;
+}
+.sale-content p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+    margin: 0;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.sale-image{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 230px;
+    background-position: bottom center;
+    margin: auto;
+    display: flex;
+}
+
+.sale-image img{
+    width: 680px;
+}
+
+.sale-image2 img{
+    width: 305px;
 }
